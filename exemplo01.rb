@@ -7,14 +7,14 @@ puts "++++++++++++++"
 
 puts "Com o inspect >> " + nome.inspect
 
-puts "Digite um numero:"
-a = gets.to_i
+puts "Digite seu salario:"
+a = gets.chomp.to_f
+
+puts "Seu salario atualizado é:" + (a * 1.10).to_s
 
 puts "Digite outro numero:"
-b = gets.to_f
+b = gets.chomp.to_f
 
-puts "to_i:"
-puts a
 puts "---------------"
 puts "to_f"
 puts b
